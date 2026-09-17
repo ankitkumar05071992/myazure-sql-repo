@@ -6,11 +6,4 @@
     <SqlServerVersion>Sql150</SqlServerVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Build Include="Tables/Department.sql" />
-    <Build Include="Tables/Employee.sql" />
-    <Build Include="StoredProcedures/usp_GetEmployees.sql" />
-    <Build Include="Views/vw_EmployeeDetails.sql" />
-  </ItemGroup>
-
 </Project>
