@@ -1,9 +1,10 @@
-<Project>
+<Project DefaultTargets="Build">
+
   <Sdk Name="Microsoft.Build.Sql" Version="2.2.0" />
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <SqlServerVersion>Sql150</SqlServerVersion>
-    <DatabaseSchemaProviderName>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DatabaseSchemaProviderName>
+    <Name>Database</Name>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
   </PropertyGroup>
+
 </Project>
