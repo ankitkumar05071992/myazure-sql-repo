@@ -4,6 +4,6 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <SqlServerVersion>Sql150</SqlServerVersion>
+    <DatabaseSchemaProviderName>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DatabaseSchemaProviderName>
   </PropertyGroup>
-
 </Project>
